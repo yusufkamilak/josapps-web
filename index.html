@@ -17,15 +17,38 @@
             padding: 1rem;
             text-align: center;
         }
+        header p {
+            margin: 0.5rem 0 0 0;
+            font-size: 1rem;
+            opacity: 0.9;
+        }
+        main {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 1rem;
+        }
+        section {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 2rem;
+            margin-bottom: 2rem;
+        }
+        section h2 {
+            color: #4CAF50;
+            margin-top: 0;
+            text-align: center;
+        }
         nav {
             text-align: center;
-            margin: 2rem 0;
+            margin: 1rem 0;
         }
         nav a {
             margin: 0 1rem;
             text-decoration: none;
             color: #4CAF50;
-            font-size: 1.2rem;
+            font-size: 1.1rem;
         }
         nav a:hover {
             text-decoration: underline;
@@ -35,19 +58,44 @@
             text-align: center;
             font-size: 0.9rem;
             color: #777;
+            padding: 1rem;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>WordStack</h1>
+        <h1>JosApps</h1>
+        <p>Your Apps Hub</p>
     </header>
-    <nav>
-        <a href="wordstack/privacy-policy.html">Privacy Policy</a>
-        <a href="wordstack/terms-conditions.html">Terms and Conditions</a>
-    </nav>
+    
+    <main>
+        <section>
+            <h2>WordStack</h2>
+            <nav>
+                <a href="wordstack/privacy-policy.html">Privacy Policy</a>
+                <a href="wordstack/terms-conditions.html">Terms and Conditions</a>
+            </nav>
+        </section>
+        
+        <section>
+            <h2>LensPulse</h2>
+            <nav>
+                <a href="lenspulse/privacy-policy.html">Privacy Policy</a>
+                <a href="lenspulse/terms-and-conditions.html">Terms and Conditions</a>
+            </nav>
+        </section>
+        
+        <section>
+            <h2>Leo: Yearly Goals & Retro</h2>
+            <nav>
+                <a href="leo/privacy-policy.html">Privacy Policy</a>
+                <a href="leo/terms-and-conditions.html">Terms and Conditions</a>
+            </nav>
+        </section>
+    </main>
+    
     <footer>
-        &copy; 2024 WordStack. All rights reserved.
+        &copy; 2024 JosApps. All rights reserved.
     </footer>
 </body>
 </html>
